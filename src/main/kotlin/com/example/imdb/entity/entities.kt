@@ -44,6 +44,7 @@ data class TitleRatings(
 )
 
 @Entity
+@Table(name = "title_basics", indexes = [Index(columnList = "genres")])
 data class TitleBasics(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
