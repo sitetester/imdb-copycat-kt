@@ -25,9 +25,6 @@ dependencies {
 
     runtimeOnly("mysql:mysql-connector-java")
 
-    // https://adinugroho.medium.com/using-sqlite-with-spring-boot-kotlin-73b365f6c576
-    // implementation("org.xerial:sqlite-jdbc:3.32.3.2")
-    // implementation("com.github.gwenn:sqlite-dialect:0.1.0")
 }
 
 tasks.withType<KotlinCompile> {
