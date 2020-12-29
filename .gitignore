@@ -37,3 +37,4 @@ out/
 .vscode/
 src/main/resources/data
 .DS_Store
+spring-shell.log
