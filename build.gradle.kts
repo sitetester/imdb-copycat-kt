@@ -22,7 +22,7 @@ dependencies {
     implementation("org.springframework.shell:spring-shell-starter:2.0.1.RELEASE")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    developmentOnly("org.springframework.boot:spring-boot-devtools")
+    compileOnly("org.springframework.boot:spring-boot-devtools")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 
     runtimeOnly("mysql:mysql-connector-java")
